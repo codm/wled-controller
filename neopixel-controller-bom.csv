@@ -1,0 +1,18 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"AVAILABILITY";"DATASHEET-URL";"DESCRIPTION";"H";"MF";"MP";"MPN";"OC_FARNELL";"OC_NEWARK";"OPERATION-FORCE";"PACKAGE";"PART-NUMBER";"POPULARITY";"PRICE";"PROD_ID";"QTY";"SPICEPREFIX";"VALUE";
+"2";"";"434153017835";"434153017835";"FLASH, RESET";"WS-TASV J-Bend SMT Tact Switch 3.5x2.9 mm";"";"https://www.we-online.com/catalog/datasheet/434153017835.pdf";"";"1.7mm";"";"";"";"";"";"350g";"";"434153017835";"";"";"";" 4000 ";"";"";
+"1";"";"4R-NEXB38V";"EXB38V";"RN2";"Array Chip Resistor";"";"";"";"";"";"";"";"unknown";"unknown";"";"";"";"5";"";"";"";"";"";
+"1";"";"LEDCHIPLED_0805";"CHIPLED_0805";"STATUS";"LED";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"";"PINHD-1X5";"1X05";"JP1";"PIN HEADER";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"2";"100n";"C-EUC0805";"C0805";"C1, C3";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"88";"";"";"";"C";"";
+"1";"10k";"4R-NEXB38V";"EXB38V";"RN1";"Array Chip Resistor";"";"";"";"";"";"";"";"unknown";"unknown";"";"";"";"5";"";"";"";"";"";
+"1";"10k";"R-EU_R0805";"R0805";"R3";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"86";"";"";"";"R";"";
+"3";"10µ";"C-EUC0805";"C0805";"C2, C5, C6";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"88";"";"";"";"C";"";
+"1";"16V 750mA";"PTCFUSE-1206";"R1206";"F1";"PTC fuses, resettable thermistors";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"1k";"R-EU_R0805";"R0805";"R2";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"86";"";"";"";"R";"";
+"1";"1µ";"C-EUC0805";"C0805";"C4";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"88";"";"";"";"C";"";
+"1";"300";"R-EU_R0805";"R0805";"R1";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"86";"";"";"";"R";"";
+"1";"AP2112K";"V_REG_AP2112K-3.3V";"SOT23-5";"U2";"AP2112 - 600mA CMOS LDO Regulator w/ Enable";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"VREG-12457";"";"";"3.3V";
+"2";"BSS138";"MOSFET-NREFLOW";"SOT23";"Q1, Q2";"N-Channel Mosfet";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"ESP-WROOM-02";"ESP-WROOM-02";"MODULE_ESP-WROOM-02";"U1";"Wi-Fi Module w/ESP8266 802.11b/g/n 20dBm 20x18x3mm";"Unavailable";"";" Wi-Fi Module w/ESP8266 802.11b/g/n 20dBm 20x18x3mm ";"";"Espressif Systems";"ESP-WROOM-02";"";"";"";"";"SMD-18 Espressif Systems";"";"";"None";"";"";"";"";
+"1";"MCV-1,5/4-G-3,81";"MCV-1,5/4-G-3,81";"MCV-1,5/4-G-3,81";"U$101";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"SK34A";"DIODE-DO214AC";"DO214AC";"D1";"DIODE";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
