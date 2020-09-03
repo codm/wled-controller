@@ -14529,7 +14529,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FLASH" library="434153017835_Eagle_WS-TASV_rev20a" deviceset="434153017835" device="" package3d_urn="urn:adsk.eagle:package:18304352/2"/>
 <part name="RESET" library="434153017835_Eagle_WS-TASV_rev20a" deviceset="434153017835" device="" package3d_urn="urn:adsk.eagle:package:18304352/2"/>
-<part name="U$101" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="MCV-1,5/4-G-3,81" device="" package3d_urn="urn:adsk.eagle:package:19733410/1" override_package3d_urn="urn:adsk.eagle:package:20945106/4" override_package_urn="urn:adsk.eagle:footprint:20945107/1" override_locally_modified="yes"/>
+<part name="U$101" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="MCV-1,5/4-G-3,81" device="" package3d_urn="urn:adsk.eagle:package:19733410/1" override_package3d_urn="urn:adsk.eagle:package:23024494/3" override_package_urn="urn:adsk.eagle:footprint:23024496/1"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SK34A"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
