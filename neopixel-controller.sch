@@ -14503,7 +14503,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <part name="STATUS" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FLASH" library="434153017835_Eagle_WS-TASV_rev20a" deviceset="434153017835" device="" package3d_urn="urn:adsk.eagle:package:18304352/2"/>
 <part name="RESET" library="434153017835_Eagle_WS-TASV_rev20a" deviceset="434153017835" device="" package3d_urn="urn:adsk.eagle:package:18304352/2"/>
@@ -14511,7 +14511,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SK34A"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" override_package3d_urn="urn:adsk.eagle:package:20945049/2" override_package_urn="urn:adsk.eagle:footprint:6239923/1" value="16V 750mA"/>
+<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" override_package3d_urn="urn:adsk.eagle:package:20945049/2" override_package_urn="urn:adsk.eagle:footprint:6239923/1" value="8V 500mA"/>
 <part name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="EXB38V" package3d_urn="urn:adsk.eagle:package:24923/1" override_package3d_urn="urn:adsk.eagle:package:20945039/2" override_package_urn="urn:adsk.eagle:footprint:24902/1" value="10k"/>
 <part name="U3" library="SN74AHCT125D" deviceset="SN74AHCT125D" device="" override_package3d_urn="urn:adsk.eagle:package:23111573/2" override_package_urn="urn:adsk.eagle:footprint:23111574/1"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -14549,8 +14549,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <instance part="GND4" gate="1" x="152.4" y="38.1" smashed="yes">
 <attribute name="VALUE" x="149.86" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V35" gate="G$1" x="129.54" y="111.76" smashed="yes">
-<attribute name="VALUE" x="127" y="106.68" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V35" gate="G$1" x="137.16" y="111.76" smashed="yes">
+<attribute name="VALUE" x="134.62" y="106.68" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V37" gate="G$1" x="228.6" y="111.76" smashed="yes">
 <attribute name="VALUE" x="226.06" y="106.68" size="1.778" layer="96" rot="R90"/>
@@ -14589,9 +14589,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <instance part="GND1" gate="1" x="63.5" y="22.86" smashed="yes">
 <attribute name="VALUE" x="60.96" y="20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="66.04" y="35.56" smashed="yes">
-<attribute name="NAME" x="62.23" y="37.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="62.23" y="32.258" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="68.58" y="40.64" smashed="yes">
+<attribute name="NAME" x="64.77" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="64.77" y="37.338" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
@@ -14790,9 +14790,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 </segment>
 <segment>
 <pinref part="+3V35" gate="G$1" pin="+3V3"/>
-<wire x1="129.54" y1="106.68" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="104.14" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="104.14" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="D" pin="2"/>
 </segment>
 <segment>
@@ -14901,16 +14899,14 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 </net>
 <net name="DATA-5V" class="0">
 <segment>
-<wire x1="58.42" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
-<label x="63.5" y="40.64" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$101" gate="G$1" pin="P$3"/>
-<wire x1="45.72" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="38.1" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <label x="86.36" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="4Y"/>
 <wire x1="81.28" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
+<label x="78.74" y="40.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -14937,9 +14933,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <pinref part="U3" gate="G$1" pin="3Y"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
-<label x="78.74" y="35.56" size="1.27" layer="95" xref="yes"/>
+<label x="76.2" y="35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$101" gate="G$1" pin="P$2"/>
+<wire x1="45.72" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -14956,13 +14952,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$101" gate="G$1" pin="P$2"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DATA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO2"/>
@@ -14973,6 +14962,15 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <label x="38.1" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="4A"/>
 <wire x1="45.72" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DATA-5VR" class="0">
+<segment>
+<pinref part="U$101" gate="G$1" pin="P$3"/>
+<wire x1="45.72" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="38.1" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
