@@ -14499,7 +14499,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="U1" library="ESP-WROOM-02" deviceset="ESP-WROOM-02" device="" override_package3d_urn="urn:adsk.eagle:package:14797501/2" override_package_urn="urn:adsk.eagle:footprint:14797502/1" override_locally_modified="yes"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k7"/>
 <part name="STATUS" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -14735,9 +14735,17 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <wire x1="45.72" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="2!OE"/>
-<wire x1="43.18" y1="96.52" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="96.52" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="91.44" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="86.36" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <junction x="43.18" y="96.52"/>
+<pinref part="U3" gate="G$1" pin="3!OE"/>
+<wire x1="45.72" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<junction x="43.18" y="91.44"/>
+<pinref part="U3" gate="G$1" pin="4!OE"/>
+<wire x1="45.72" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<junction x="43.18" y="86.36"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
