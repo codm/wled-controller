@@ -14522,6 +14522,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 <sheets>
 <sheet>
 <plain>
+<text x="162.56" y="12.7" size="2.54" layer="94" font="vector">WLAN Pixel Controller V0.6
+codm.de, 2020
+CC-BY-NC-SA</text>
 </plain>
 <instances>
 <instance part="C6" gate="G$1" x="68.58" y="142.24" smashed="yes" rot="R180">
@@ -14987,6 +14990,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TASV_3_5X2_9_SMD_J
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
