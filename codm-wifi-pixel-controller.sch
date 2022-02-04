@@ -20792,8 +20792,6 @@ chip</description>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="100n"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1u"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="AP62XXX-TSOT26" device="" package3d_urn="urn:adsk.eagle:package:33659716/2"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -20826,7 +20824,7 @@ chip</description>
 <part name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP14R" package3d_urn="urn:adsk.eagle:package:27966/1" override_package3d_urn="urn:adsk.eagle:package:33701212/2" override_package_urn="urn:adsk.eagle:footprint:27923/1" value="PTR1TP14R"/>
 <part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP14R" package3d_urn="urn:adsk.eagle:package:27966/1" value="PTR1TP14R"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SK34A"/>
-<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" override_package3d_urn="urn:adsk.eagle:package:20945049/2" override_package_urn="urn:adsk.eagle:footprint:6239923/1" value="8V 500mA"/>
+<part name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1206" package3d_urn="urn:adsk.eagle:package:6240569/1" override_package3d_urn="urn:adsk.eagle:package:20945049/2" override_package_urn="urn:adsk.eagle:footprint:6239923/1" value="24V 500mA"/>
 <part name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP14R" package3d_urn="urn:adsk.eagle:package:27966/1" value="PTR1TP14R"/>
 </parts>
 <sheets>
@@ -20957,13 +20955,6 @@ CC-BY-NC-SA</text>
 <instance part="C5" gate="G$1" x="154.94" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="153.416" y="83.439" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="153.416" y="88.519" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R5" gate="G$1" x="231.14" y="89.408" smashed="yes" rot="R270">
-<attribute name="NAME" x="232.6386" y="93.218" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="227.838" y="93.218" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="+3V3" gate="G$1" x="231.14" y="111.76" smashed="yes">
-<attribute name="VALUE" x="228.6" y="106.68" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="66.04" y="10.16" smashed="yes">
 <attribute name="VALUE" x="63.5" y="7.62" size="1.778" layer="96"/>
@@ -21311,11 +21302,6 @@ CC-BY-NC-SA</text>
 <wire x1="147.32" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="109.22" x2="231.14" y2="94.488" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="157.48" x2="81.28" y2="155.448" width="0.1524" layer="91"/>
@@ -21457,12 +21443,8 @@ CC-BY-NC-SA</text>
 <net name="GPIO0" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="IO0"/>
-<wire x1="231.14" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="84.328" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="FLASH" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
-<junction x="231.14" y="50.8"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -21751,12 +21733,11 @@ CC-BY-NC-SA</text>
 <net name="VCCF" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="27.94" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="121.92" x2="27.94" y2="127" width="0.1524" layer="91"/>
-<junction x="27.94" y="127"/>
+<wire x1="48.26" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="121.92" x2="30.48" y2="127" width="0.1524" layer="91"/>
+<junction x="30.48" y="127"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="134.62" x2="10.16" y2="134.62" width="0.1524" layer="91"/>
