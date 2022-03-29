@@ -19,18 +19,20 @@ The board comes preflashed with the current version of WLED, but can be used wit
 
 It can be used with nearly every type of adressable led strips: WS2812B, WS2813, SK6812, APA102, WS2801, LPD8806, TM1814, WS2811, WS2815, GS8208.
 
-Please read the [Adafruit Neopixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide) on how to work with Neopixels. Antother good starting pint is the [WLED Wiki](https://github.com/Aircoookie/WLED/wiki).
+Please read the [Adafruit Neopixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide) on how to work with Neopixels. Antother good starting pint is the [WLED documentation](https://kno.wled.ge/).
 
 Based on the LoxPixel-idea from Dennis (www.unser-smartes-zuhause.de) we've discussed a board layout and in the beginning developed our own software based in Dennis' initial code.
 In the end we've settled to expand the absolutely astonishing WLED project with the needed features for Loxone. In Version 0.11 WLED can now understand Loxone values.
 
-* ESP32 4MB
+* Espressif ESP32-WROOM-32E 4MB
 * usable in 5V and 12V installations
+* up to four lanes of pixel
+* drives up to 1000 pixel per lane
+* more ESP32 pins are accesible on the back of the PCB
 * compact (72x30x16mm)
 * reverse polarity protection
 * wiring through srew-plug terminal
 * real 74AHCT125D level shifter
-* drives up to 850 pixel
 * detailed instructions
 * could be easily (re-)programmed
 * open source (CC-BY-NC-SA 4.0)
