@@ -1,15 +1,17 @@
 # Wi-Fi Pixel Controller
 
-ESP8266 based Wi-Fi Pixel Controller to drive adressable LED stripes like Neopixel/SK6812/WS2801/etc using [WLED](https://github.com/Aircoookie/WLED).
-Version 0.6 includes an 74AHCT125D level shifter for the 5V logic of the typical pixel. 12V stripes could also be used, as they too have 5V data lines. See the wiring examples:
+ESP32 based Wi-Fi Pixel Controller to drive adressable LED strips like Neopixel/WS281x/SK6812/WS2801/WS2815/etc using [WLED](https://github.com/Aircoookie/WLED).
+Version 0.8 now includes can be used with 5V and 12V strips without the need of external dc-dc converters and we've updated the microcontroller from an ESP8266 to an ESP32. Therefore handling or more LED's and multiple strips are no problem. See https://kno.wled.ge/features/multi-strip/
 
-* [Wiring Example WS281x/SK6812](https://shop.codm.de/media/pdf/c6/80/6c/Anschlussplan-cod-m-PixelController-0-6-WS2812-SK6812.pdf)
-* [Wiring Example WS281x/SK6812 12V](https://shop.codm.de/media/pdf/g0/b8/fe/Anschlussplan-cod-m-PixelController-0-6-WS2812-SK6812-12V.pdf)
-* [Wiring Example WS2801/APA102](https://shop.codm.de/media/pdf/4b/d0/af/Anschlussplan-cod-m-PixelController-0-6-WS2801-APA102.pdf)
+There now is a button (`IO15`) which can be freely confirugred via WLED. See https://kno.wled.ge/features/macros/#buttons
+
+* [Wiring Example WS281x/SK6812 5V/12V](https://shop.codm.de/media/pdf/53/e0/3b/Anschlussplan-codm-pixel-controller-V0-8-WS281x-SK6812-1-0.pdf)
+* [Wiring Example WS2801/APA102 5V/12V](https://shop.codm.de/media/pdf/81/70/48/Anschlussplan-codm-pixel-controller-V0-8-WS2801-1-0.pdf
+* [Wiring Example WS2815 12V](https://shop.codm.de/media/pdf/1b/ac/0b/Anschlussplan-codm-pixel-controller-V0-8-WS2815-1-0.pdf)
 
 You can buy it at our webshop: [Wi-Fi Pixel Controller (WLED)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
 
-[![cod.m GmbH Wi-Fi Pixel Controller](codm-wifi-pixel-controller.jpg)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
+[![cod.m GmbH Wi-Fi Pixel Controller](codm-pixel-controller-wled-0.8-case-top.jpg)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
 
 The board comes preflashed with the current version of WLED, but can be used with any firmware you like, as we've added a flash and reset button for easy flashing.
 
@@ -20,14 +22,16 @@ Please read the [Adafruit Neopixel Uberguide](https://learn.adafruit.com/adafrui
 Based on the LoxPixel-idea from Dennis (www.unser-smartes-zuhause.de) we've discussed a board layout and in the beginning developed our own software based in Dennis' initial code.
 In the end we've settled to expand the absolutely astonishing WLED project with the needed features for Loxone. In Version 0.11 WLED can now understand Loxone values.
 
+* ESP32 4MB
+* usable in 5V and 12V installations
 * compact (72x30x16mm)
 * reverse polarity protection
 * wiring through srew-plug terminal
-* open source, using ESP-WROOM-02D 4MB
 * real 74AHCT125D level shifter
 * drives up to 850 pixel
 * detailed instructions
 * could be easily (re-)programmed
+* open source (CC-BY-NC-SA 4.0)
 
 # Thanks
 * [Aircookie](https://github.com/Aircoookie) and the folks from [WLED](https://github.com/Aircoookie/WLED)
@@ -35,6 +39,6 @@ In the end we've settled to expand the absolutely astonishing WLED project with 
 * [m0fa](https://github.com/m0fa)
 
 # License
-[CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/de/)
+[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/de/)
 
-cod.m GmbH, Patrik Mayer, 2020
+cod.m GmbH, Patrik Mayer, 2022
