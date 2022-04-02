@@ -24,6 +24,8 @@ Please read the [Adafruit Neopixel Uberguide](https://learn.adafruit.com/adafrui
 Based on the LoxPixel-idea from Dennis (www.unser-smartes-zuhause.de) we've discussed a board layout and in the beginning developed our own software based in Dennis' initial code.
 In the end we've settled to expand the absolutely astonishing WLED project with the needed features for Loxone. In Version 0.11 WLED can now understand Loxone values.
 
+## Features
+
 * Espressif ESP32-WROOM-32E 4MB
 * usable in 5V and 12V installations
 * up to four lanes of pixel
