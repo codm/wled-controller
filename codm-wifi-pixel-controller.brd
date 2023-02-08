@@ -18,8 +18,8 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -6645,7 +6645,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="48.708" y="20.238" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF/6.3V/20%" x="8.7" y="1.2" smashed="yes">
-<attribute name="NAME" x="7.05" y="1.2" size="0.8128" layer="25" align="center-right"/>
+<attribute name="NAME" x="6.65" y="1.2" size="0.8128" layer="25" align="center-right"/>
 <attribute name="POPULARITY" value="52" x="-11.3" y="20.2" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-11.3" y="20.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.43" y="-1.34" size="1.27" layer="27"/>
