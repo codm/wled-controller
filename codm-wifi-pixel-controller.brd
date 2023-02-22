@@ -160,7 +160,7 @@
 <text x="43.95" y="3.7" size="0.8128" layer="25" font="vector" align="center">RX</text>
 <text x="46.5" y="3.7" size="0.8128" layer="25" font="vector" align="center">3V3</text>
 <text x="34.6" y="21.1" size="1.016" layer="25" font="vector" ratio="12" align="top-left">Wi-Fi Pixel Controller V0.8r1
-codm.de 2022</text>
+codm.de 2023</text>
 <text x="2.4" y="13.2" size="1.4224" layer="26" font="vector" rot="MR90" align="center">90060-0.8r1</text>
 <text x="58.2" y="18.4" size="1.27" layer="25" ratio="20" align="center-right">GND</text>
 <text x="58.2" y="14.6" size="1.27" layer="25" ratio="20" align="center-right">18</text>
