@@ -149,7 +149,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzE1ODk4" projecturn="a.cGVyc29uYWw6dWUyYzE1ODk4IzIwMTkwNTIyMTk1MjcwNTc2" f3durn="urn:adsk.wipprod:dm.lineage:Nk1PyQTMTvCat4ddAu2akg" pcbguid="" lastpulledtime="2022-01-24T14:18:16Z" lastsyncedchangeguid="" latestrevisionid="779bcfb4-5d03-4f22-a18b-a278c4da1827" lastsyncedrevisionid="779bcfb4-5d03-4f22-a18b-a278c4da1827" lastboardhashguid="73ab05d9-8394-6f2f-6f33-843f7b927416" lastpushedtime="2023-02-09T10:08:43Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzE1ODk4" projecturn="a.cGVyc29uYWw6dWUyYzE1ODk4IzIwMTkwNTIyMTk1MjcwNTc2" f3durn="urn:adsk.wipprod:dm.lineage:Nk1PyQTMTvCat4ddAu2akg" pcbguid="" lastpulledtime="2022-01-24T14:18:16Z" lastsyncedchangeguid="" latestrevisionid="97a00fa4-2d0d-419b-be38-60823d265a7e" lastsyncedrevisionid="97a00fa4-2d0d-419b-be38-60823d265a7e" lastboardhashguid="db176a38-dddf-6929-8e95-b7378ac1a8e2" lastpushedtime="2023-02-23T12:15:01Z" linktopcb3d="true"/>
 <plain>
 <dimension x1="0" y1="0" x2="3.45" y2="0" x3="1.725" y3="-4.8" textsize="1.778" layer="48"/>
 <dimension x1="0" y1="0" x2="0" y2="3.5" x3="-5.83" y3="1.75" textsize="1.778" layer="48"/>
@@ -6873,8 +6873,8 @@ Everything else you will find on https://aisler.net/help</description>
 </polygon>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="6.7" y="-0.1"/>
-<vertex x="6.7" y="5.4"/>
-<vertex x="8.3" y="5.4"/>
+<vertex x="6.7" y="5.5"/>
+<vertex x="8.3" y="5.5"/>
 <vertex x="8.3" y="2.6"/>
 <vertex x="8.6" y="2.3"/>
 <vertex x="8.6" y="-0.1"/>
