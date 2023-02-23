@@ -167,8 +167,6 @@ codm.de 2023</text>
 <text x="58.2" y="10.8" size="1.27" layer="25" ratio="20" align="center-right">16</text>
 <text x="58.2" y="7" size="1.27" layer="25" ratio="20" align="center-right">VCC</text>
 <text x="29.5" y="17.1" size="1.4224" layer="26" ratio="12" rot="MR0" align="center">Wi-Fi Pixel Controller V0.8r1</text>
-<circle x="8" y="7" radius="1" width="0" layer="29"/>
-<circle x="56" y="22" radius="1" width="0" layer="29"/>
 <text x="58.2" y="5.1" size="0.8128" layer="25" font="vector" align="center-right">5/12V</text>
 <circle x="53" y="2.5" radius="2.05" width="0.1524" layer="52"/>
 <circle x="53" y="23.5" radius="2.05" width="0.1524" layer="52"/>
@@ -4638,6 +4636,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
+<package name="FIDUCIAL-1X2" urn="urn:adsk.eagle:footprint:36997/1" library_version="1">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="OSHW-LOGO-L" urn="urn:adsk.eagle:package:37097/1" type="box" library_version="1">
@@ -4647,6 +4652,15 @@ Devices using:
 OSHW_LOGO</description>
 <packageinstances>
 <packageinstance name="OSHW-LOGO-L"/>
+</packageinstances>
+</package3d>
+<package3d name="FIDUCIAL-1X2" urn="urn:adsk.eagle:package:37108/1" type="box" library_version="1">
+<description>Fiducial - Circle, 1mm
+Point-of-reference for pick-and-place machines and other optical instruments.
+Devices using:
+FIDUCIAL</description>
+<packageinstances>
+<packageinstance name="FIDUCIAL-1X2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6813,6 +6827,8 @@ Everything else you will find on https://aisler.net/help</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-WROOM-32D/?ref=eda" x="13" y="12.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28" y="3.25" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="8" y="7" smashed="yes"/>
+<element name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="56" y="22" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
