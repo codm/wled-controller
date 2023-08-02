@@ -1,4 +1,4 @@
-# Wi-Fi Pixel Controller
+# WLED Pixel Controller (Wi-FI/WLAN)
 
 ESP32 based Wi-Fi Pixel Controller to drive adressable LED strips like Neopixel/WS281x/SK6812/WS2801/WS2815/etc using [WLED](https://github.com/Aircoookie/WLED).
 Version 0.8 now can be used with 5V *and* 12V strips without the need of external dc-dc converters and we've updated the microcontroller from an ESP8266 to an ESP32. Therefore handling of more LED's and multiple strips are no problem. See https://kno.wled.ge/features/multi-strip/
@@ -11,9 +11,9 @@ As of WLED 0.13 the first button can be used to do a factory reset by holding it
 * [Wiring Example WS2801/APA102 5V/12V](https://shop.codm.de/media/pdf/81/70/48/Anschlussplan-codm-pixel-controller-V0-8-WS2801-1-0.pdf)
 * [Wiring Example WS2815 12V](https://shop.codm.de/media/pdf/1b/ac/0b/Anschlussplan-codm-pixel-controller-V0-8-WS2815-1-0.pdf)
 
-You can buy it at our webshop: [Wi-Fi Pixel Controller (WLED)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
+You can buy it at our webshop: [WLED Pixel Controller (Wi-Fi/WLAN)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
 
-[![cod.m GmbH Wi-Fi Pixel Controller](codm-pixel-controller-wled-0.8-case-top.jpg)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
+[![cod.m GmbH WLED Pixel Controller (Wi-Fi/WLAN)](codm-pixel-controller-wled-0.8-case-top.jpg)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
 
 The board comes preflashed with the current version of WLED, but can be used with any firmware you like, as we've added a flash and reset button for easy flashing.
 
