@@ -7,13 +7,13 @@ There now is a button (`IO15`) which can be freely confirugred via WLED. See htt
 
 As of WLED 0.13 the first button can be used to do a factory reset by holding it for longer than ten seconds.
 
-* [Wiring Example WS281x/SK6812 5V/12V](https://shop.codm.de/media/pdf/53/e0/3b/Anschlussplan-codm-pixel-controller-V0-8-WS281x-SK6812-1-0.pdf)
-* [Wiring Example WS2801/APA102 5V/12V](https://shop.codm.de/media/pdf/81/70/48/Anschlussplan-codm-pixel-controller-V0-8-WS2801-1-0.pdf)
-* [Wiring Example WS2815 12V](https://shop.codm.de/media/pdf/1b/ac/0b/Anschlussplan-codm-pixel-controller-V0-8-WS2815-1-0.pdf)
+* [Wiring Example WS281x/SK6812 5V/12V](https://shop.codm.de/media/c4/06/3f/1694090274/Anschlussplan-codm-pixel-controller-V0-8-WS281x-SK6812-1-0.pdf)
+* [Wiring Example WS2801/APA102 5V/12V](https://shop.codm.de/media/19/40/a3/1694090282/Anschlussplan-codm-pixel-controller-V0-8-WS2801-1-0.pdf)
+* [Wiring Example WS2815 12V](https://shop.codm.de/media/3a/1d/47/1694090288/Anschlussplan-codm-pixel-controller-V0-8-WS2815-1-0.pdf)
 
 You can buy it at our webshop: [WLED Pixel Controller (Wi-Fi/WLAN)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
 
-[![cod.m GmbH WLED Pixel Controller (Wi-Fi/WLAN)](codm-pixel-controller-wled-0.8-case-top.jpg)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
+[![cod.m GmbH WLED Controller (Wi-Fi/WLAN)](codm-pixel-controller-wled-0.8-case-top.jpg)](https://shop.codm.de/automation/wled/30/wled-controller-wlan/wi-fi)
 
 The board comes preflashed with the current version of WLED, but can be used with any firmware you like, as we've added a flash and reset button for easy flashing.
 
