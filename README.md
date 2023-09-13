@@ -11,7 +11,9 @@ As of WLED 0.13 the first button can be used to do a factory reset by holding it
 * [Wiring Example WS2801/APA102 5V/12V](https://shop.codm.de/media/19/40/a3/1694090282/Anschlussplan-codm-pixel-controller-V0-8-WS2801-1-0.pdf)
 * [Wiring Example WS2815 12V](https://shop.codm.de/media/3a/1d/47/1694090288/Anschlussplan-codm-pixel-controller-V0-8-WS2815-1-0.pdf)
 
-You can buy it at our webshop: [WLED Controller (Wi-Fi/WLAN)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled)
+You can buy it at our webshop: 
+* [WLED Controller (Wi-Fi)](https://shop.codm.de/en/automation/wled/30/wled-controller-wlan/wi-fi) (English)
+* [WLED Controller (WLAN)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled) (German)
 
 [![cod.m GmbH WLED Controller (Wi-Fi/WLAN)](codm-pixel-controller-wled-0.8-case-top.jpg)](https://shop.codm.de/automation/wled/30/wled-controller-wlan/wi-fi)
 
