@@ -7,9 +7,9 @@ There now is a button (`IO15`) which can be freely confirugred via WLED. See htt
 
 As of WLED 0.13 the first button can be used to do a factory reset by holding it for longer than ten seconds.
 
-* [Wiring Example WS281x/SK6812 5V/12V](https://shop.codm.de/media/c4/06/3f/1694090274/Anschlussplan-codm-pixel-controller-V0-8-WS281x-SK6812-1-0.pdf)
-* [Wiring Example WS2801/APA102 5V/12V](https://shop.codm.de/media/19/40/a3/1694090282/Anschlussplan-codm-pixel-controller-V0-8-WS2801-1-0.pdf)
-* [Wiring Example WS2815 12V](https://shop.codm.de/media/3a/1d/47/1694090288/Anschlussplan-codm-pixel-controller-V0-8-WS2815-1-0.pdf)
+* [Wiring Example WS281x/SK6812 5V/12V/24V](https://shop.codm.de/media/e0/8c/7e/1694690940/wiring-scheme-wled-controller-V0.8-WS281x-SK6812.pdf)
+* [Wiring Example WS2801/APA102 5V/12V/24V](https://shop.codm.de/media/15/71/33/1694690940/wiring-scheme-wled-controller-V0.8-WS2801.pdf)
+* [Wiring Example WS2815 12V](https://shop.codm.de/media/7c/08/47/1694690940/wiring-scheme-wled-controller-V0.8-WS2815.pdf)
 
 You can buy it at our webshop: 
 * [WLED Controller (Wi-Fi)](https://shop.codm.de/en/automation/wled/30/wled-controller-wlan/wi-fi) (English)
