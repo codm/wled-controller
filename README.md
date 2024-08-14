@@ -11,6 +11,8 @@ As of WLED 0.13 the first button can be used to do a factory reset by holding it
 * [Wiring Example WS2801/APA102 5V/12V/24V](https://shop.codm.de/media/15/71/33/1694690940/wiring-scheme-wled-controller-V0.8-WS2801.pdf)
 * [Wiring Example WS2815 12V](https://shop.codm.de/media/7c/08/47/1694690940/wiring-scheme-wled-controller-V0.8-WS2815.pdf)
 
+More documentation could be foun in the [cod.m Knowledge Base: WLED Controller](https://docs.codm.de/en/wled/controller/).
+
 You can buy it at our webshop: 
 * [WLED Controller (Wi-Fi)](https://shop.codm.de/en/automation/wled/30/wled-controller-wlan/wi-fi) (English)
 * [WLED Controller (WLAN)](https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled) (German)
@@ -29,7 +31,7 @@ In the end we've settled to expand the absolutely astonishing WLED project with 
 ## Features
 
 * Espressif ESP32-WROOM-32E 4MB
-* usable in 5V and 12V installations
+* usable in 5V, 12V and 24V installations
 * up to four lanes of pixel
 * drives up to 1000 pixel per lane
 * more ESP32 pins are accesible on the back of the PCB
